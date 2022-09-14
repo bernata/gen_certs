@@ -1,0 +1,18 @@
+{
+    "CN": "ROOT CA",
+    "key": {
+        "algo": "rsa",
+        "size": 4096
+    },
+    "names": [
+        {
+            "C": "US",
+            "L": "CA",
+            "O": "company.com"
+        }
+    ],
+    "ca": {
+        "pathlen": 2,
+        "expiry": "175200h"
+    }
+}

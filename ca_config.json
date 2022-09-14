@@ -1,0 +1,32 @@
+{
+  "signing": {
+    "default": {
+      "expiry": "87600h",
+      "usages": [
+        "signing",
+        "key encipherment"
+      ]
+    },
+    "profiles": {
+      "server": {
+        "expiry": "87600h",
+        "usages": [
+          "signing",
+          "key encipherment",
+          "server auth"
+        ]
+      },
+      "ca": {
+        "expiry": "175200h",
+        "usages": [
+          "cert sign",
+          "crl sign"
+        ],
+        "ca_constraint": {
+          "is_ca": true,
+          "pathlen": 1
+        }
+      }
+    }
+  }
+}

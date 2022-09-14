@@ -1,0 +1,14 @@
+{
+    "CN": "server.company.com",
+    "key": {
+        "algo": "rsa",
+        "size": 2048
+    },
+    "names": [
+        {
+            "C": "US",
+            "L": "CA",
+            "O": "company.com"
+        }
+    ]
+}
